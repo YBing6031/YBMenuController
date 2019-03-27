@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YBController2.h
 //  YBMenuDemo
 //
 //  Created by YB on 2019/3/27.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YBBaseMenuController.h"
 
-@interface ViewController : YBBaseMenuController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface YBController2 : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

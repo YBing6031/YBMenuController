@@ -13,6 +13,10 @@
 		38FEF06D224BB0B500E1D1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FEF06C224BB0B500E1D1D9 /* Assets.xcassets */; };
 		38FEF070224BB0B500E1D1D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FEF06E224BB0B500E1D1D9 /* LaunchScreen.storyboard */; };
 		38FEF073224BB0B500E1D1D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FEF072224BB0B500E1D1D9 /* main.m */; };
+		38FEF07B224BB0C300E1D1D9 /* YBBaseMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FEF07A224BB0C300E1D1D9 /* YBBaseMenuController.m */; };
+		38FEF07E224BB10000E1D1D9 /* YBNavMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FEF07C224BB0FF00E1D1D9 /* YBNavMenuView.m */; };
+		38FEF081224BB43300E1D1D9 /* YBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FEF080224BB43300E1D1D9 /* YBController.m */; };
+		38FEF084224BB45200E1D1D9 /* YBController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FEF083224BB45200E1D1D9 /* YBController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		38FEF06F224BB0B500E1D1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38FEF071224BB0B500E1D1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38FEF072224BB0B500E1D1D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38FEF079224BB0C300E1D1D9 /* YBBaseMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBaseMenuController.h; sourceTree = "<group>"; };
+		38FEF07A224BB0C300E1D1D9 /* YBBaseMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBaseMenuController.m; sourceTree = "<group>"; };
+		38FEF07C224BB0FF00E1D1D9 /* YBNavMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBNavMenuView.m; sourceTree = "<group>"; };
+		38FEF07D224BB0FF00E1D1D9 /* YBNavMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBNavMenuView.h; sourceTree = "<group>"; };
+		38FEF07F224BB43300E1D1D9 /* YBController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBController.h; sourceTree = "<group>"; };
+		38FEF080224BB43300E1D1D9 /* YBController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBController.m; sourceTree = "<group>"; };
+		38FEF082224BB45200E1D1D9 /* YBController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBController2.h; sourceTree = "<group>"; };
+		38FEF083224BB45200E1D1D9 /* YBController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 		38FEF062224BB0B200E1D1D9 /* YBMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				38FEF079224BB0C300E1D1D9 /* YBBaseMenuController.h */,
+				38FEF07A224BB0C300E1D1D9 /* YBBaseMenuController.m */,
+				38FEF07D224BB0FF00E1D1D9 /* YBNavMenuView.h */,
+				38FEF07C224BB0FF00E1D1D9 /* YBNavMenuView.m */,
+				38FEF07F224BB43300E1D1D9 /* YBController.h */,
+				38FEF080224BB43300E1D1D9 /* YBController.m */,
+				38FEF082224BB45200E1D1D9 /* YBController2.h */,
+				38FEF083224BB45200E1D1D9 /* YBController2.m */,
 				38FEF063224BB0B200E1D1D9 /* AppDelegate.h */,
 				38FEF064224BB0B200E1D1D9 /* AppDelegate.m */,
 				38FEF066224BB0B200E1D1D9 /* ViewController.h */,
@@ -141,9 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FEF07B224BB0C300E1D1D9 /* YBBaseMenuController.m in Sources */,
+				38FEF07E224BB10000E1D1D9 /* YBNavMenuView.m in Sources */,
 				38FEF068224BB0B200E1D1D9 /* ViewController.m in Sources */,
 				38FEF073224BB0B500E1D1D9 /* main.m in Sources */,
+				38FEF081224BB43300E1D1D9 /* YBController.m in Sources */,
 				38FEF065224BB0B200E1D1D9 /* AppDelegate.m in Sources */,
+				38FEF084224BB45200E1D1D9 /* YBController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
